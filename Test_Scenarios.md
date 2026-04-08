@@ -1,7 +1,6 @@
 # Test Scenarios – AutomationExercise
 
 ## Registration Module
-## Registration Module
 
 - Verify user is able to register with valid details  
 - Verify success message is displayed after successful registration  
@@ -12,49 +11,50 @@
 - Verify user is able to edit entered details before submission  
 - Verify system does not allow duplicate email registration  
 
-### Title / Radio Button
+#### Title / Radio Button
 - Verify user is able to select either "Mr" or "Mrs" radio button  
 - Verify user cannot select both radio buttons at the same time  
 - Verify validation message is displayed if no radio button is selected (if mandatory)  
 
-### Name Fields
+#### Name Fields
 - Verify user is able to enter first name and last name  
 - Verify validation message is displayed for empty name fields (if mandatory)  
 
-### Password Field
+#### Password Field
 - Verify user is able to enter password  
 - Verify validation message is displayed for empty password field  
 - Verify password meets required validation rules (if any)  
 
-### Date of Birth
+#### Date of Birth
 - Verify user is able to select day, month, and year  
 - Verify system behavior when date fields are left empty (if optional/mandatory)  
 
-### Checkbox Options
+#### Checkbox Options
 - Verify user is able to select newsletter checkbox  
 - Verify user is able to register without selecting newsletter checkbox  
 - Verify user is able to select special offers checkbox  
 - Verify user is able to register without selecting special offers checkbox  
 
-### Address Details
+#### Address Details
 - Verify user is able to enter address details  
 - Verify validation message is displayed for empty address field (if mandatory)  
 
-### Country Dropdown
+#### Country Dropdown
 - Verify user is able to select a country from dropdown  
 - Verify only one country can be selected at a time  
 
-### Location Fields
+#### Location Fields
 - Verify user is able to enter state, city, and zipcode  
 - Verify validation message is displayed for empty fields (if mandatory)  
 
-### Mobile Number
+#### Mobile Number
 - Verify user is able to enter mobile number  
 - Verify validation message is displayed for empty mobile number field  
 - Verify error message is displayed for invalid mobile number format  
 
-### Final Submission
-- Verify account is created successfully when all mandatory fields are filled  
+#### Final Submission
+- Verify account is created successfully when all mandatory fields are filled
+  
 ## Login Module
 - Verify user is able to login with valid credentials
 - Verify error message is displayed for invalid login credentials
