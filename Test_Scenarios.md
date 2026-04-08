@@ -1,73 +1,60 @@
 # Test Scenarios – AutomationExercise
 
 ## Registration Module
-- Verify user is able to register with valid credentials
-- Verify by success message is displayed for valid credentials
-- Verify user is able to register with invalid credentials
-- Verify error message is displayed for invalid credentials
-- Verify user can register without entering email
-- Verify user can register without entering password
-- Verify user can proceed with empty input fields 
-- Verify user is able to edit entered email and password before submission
-- Verify system handles duplicate user registration properly
-- Verify user is able to click either Mr and Mrs radio button
-- Verify user is able to choose both Mr and Mrs radio button
-- Verify user is able to create account with empty radio button
-- Verify by error message is displayed for create account without clicking Mr and Mrs radio button
-- Verify user is able to edit with different name after registration
-- Verify user is able to create account without entering name
-- Verify by error message is displayed for creating account with empty name feild
-- Verify user is able to edit email after registration
-- Verify user is able to edit with different password after registration
-- Verify user is able to create account without entering password
-- Verify by error message is displayed for creating account with empty password feild 
-- Verify user is able to click day, month and year
-- Verify user is able to create account with empty day, month and year
-- Verify by error message is displayed for create account with empty day, month and year
-- Verify user able to click sign up for our newletter
-- Verify user able to create account without clicking newletter checkbox
-- Verify by error message is displayed for create account without clicking newsletter checkbox
-- Verify by success message is displayed for create account without clicking newsletter checkbox
-- Verify user able to click special offers checkbox
-- Verify user able to create account without clicking special offers checkbox
-- Verify by error message is displayed for create account without clicking special offers checkbox
-- Verify by success message is displayed for create account without clicking special offers checkbox
-- Verify user able to enter first name in text feild
-- Verify user able to create account with empty first name 
-- Verify user able to enter last name in text feild
-- Verify user able to create account with empty last name feild
-- Verify by error message is displayed for empty first name and last name text feild
-- Verify user able to enter company text feild
-- Verify user able to create account with empty company text feild
-- Verify user able to enter address in text feild
-- Verify user able to create account with empty address text feild
-- Verify by error message is displayed for empty address text feild
-- Verify by success message is displayed for empty address text feild
-- Verify user able to click country dropdown feild
-- Verify user able to create account with empty country dropdown feild
-- Verify by error message is displayed for empty country dropdowm feild
-- Verify by success message is displayed for empty country dropdowm feild
-- Verify user able to click more then one country simultaniously
-- Verify user able to enter state in text feild
-- Verify user able to create account with empty state text feild
-- Verify by error message is displayed for empty state text feild
-- Verify by success message is displayed for empty state text feild
-- Verify user able to enter city in text feild
-- Verify user able to create account with empty city text feild
-- Verify by error message is displayed for empty city text feild
-- Verify by success message is displayed for empty city text feild
-- Verify user able to enter zipcode in text feild
-- Verify user able to create account with empty zipcode text feild
-- Verify by error message is displayed for empty zipcode text feild
-- Verify by success message is displayed for empty zipcode text feild
-- Verify user able to enter mobile number in text feild
-- Verify user able to create account with empty mobile number text feild
-- Verify by error message is displayed for empty mobile number text feild
-- Verify by success message is displayed for empty mobile number text feild
-- Verify by error message while entering mobile number without country code
-- Verify by success message for create account after entering all the feilds
+## Registration Module
 
+- Verify user is able to register with valid details  
+- Verify success message is displayed after successful registration  
+- Verify error message is displayed for invalid email format  
+- Verify user cannot register with empty mandatory fields  
+- Verify user cannot register without entering password  
+- Verify user cannot register without entering email  
+- Verify user is able to edit entered details before submission  
+- Verify system does not allow duplicate email registration  
 
+### Title / Radio Button
+- Verify user is able to select either "Mr" or "Mrs" radio button  
+- Verify user cannot select both radio buttons at the same time  
+- Verify validation message is displayed if no radio button is selected (if mandatory)  
+
+### Name Fields
+- Verify user is able to enter first name and last name  
+- Verify validation message is displayed for empty name fields (if mandatory)  
+
+### Password Field
+- Verify user is able to enter password  
+- Verify validation message is displayed for empty password field  
+- Verify password meets required validation rules (if any)  
+
+### Date of Birth
+- Verify user is able to select day, month, and year  
+- Verify system behavior when date fields are left empty (if optional/mandatory)  
+
+### Checkbox Options
+- Verify user is able to select newsletter checkbox  
+- Verify user is able to register without selecting newsletter checkbox  
+- Verify user is able to select special offers checkbox  
+- Verify user is able to register without selecting special offers checkbox  
+
+### Address Details
+- Verify user is able to enter address details  
+- Verify validation message is displayed for empty address field (if mandatory)  
+
+### Country Dropdown
+- Verify user is able to select a country from dropdown  
+- Verify only one country can be selected at a time  
+
+### Location Fields
+- Verify user is able to enter state, city, and zipcode  
+- Verify validation message is displayed for empty fields (if mandatory)  
+
+### Mobile Number
+- Verify user is able to enter mobile number  
+- Verify validation message is displayed for empty mobile number field  
+- Verify error message is displayed for invalid mobile number format  
+
+### Final Submission
+- Verify account is created successfully when all mandatory fields are filled  
 ## Login Module
 - Verify user is able to login with valid credentials
 - Verify error message is displayed for invalid login credentials
