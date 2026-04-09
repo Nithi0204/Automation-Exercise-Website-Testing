@@ -1,6 +1,6 @@
 # Test Scenarios – AutomationExercise
 
-## Registration Module
+# Registration Module
 
 - Verify user is able to register with valid details  
 - Verify success message is displayed after successful registration  
@@ -55,11 +55,13 @@
 #### Final Submission
 - Verify account is created successfully when all mandatory fields are filled
   
-## Login Module
+# Login Module
 - Verify user is able to login with valid credentials
+- Verify by success message is displayed for valid credentials
+- Verify user is able to login with invalid credentials
 - Verify error message is displayed for invalid login credentials
-- Verify user cannot login with empty fields
-- Verify user cannot login without prior registration
+- Verify user can login with empty fields
+- Verify user can login without prior registration
 - Verify user is able to login again with the same credentials after logout
 
 ## Product Module
