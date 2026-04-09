@@ -89,7 +89,7 @@
 - Verify user is able to continue shopping from the cart page  
 - Verify correct product details (name, quantity, price) are displayed  
 - Verify total amount is calculated correctly for multiple products
-- 
+  
 # Checkout Module
 - Verify user cannot proceed to checkout without adding products to the cart  
 - Verify user is able to proceed to checkout with added products  
