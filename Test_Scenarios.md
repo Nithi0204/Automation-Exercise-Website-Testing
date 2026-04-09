@@ -11,7 +11,7 @@
 - Verify user is able to edit entered details before submission  
 - Verify system does not allow duplicate email registration  
 
-### Title / Radio Button
+### ▶ TITLE SELECTION
 - Verify user is able to select either "Mr" or "Mrs" radio button  
 - Verify user cannot select both radio buttons at the same time  
 - Verify validation message is displayed if no radio button is selected (if mandatory)  
