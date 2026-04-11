@@ -17,13 +17,14 @@
 - Verify validation message is displayed if no radio button is selected (if mandatory)  
 
 ### ▶ Name Fields
-- Verify user is able to enter name 
-- Verify validation message is displayed for empty name field   
+- Verify user is able to enter first name and last name
+- Verify validation message is displayed for empty name field
+- Verify user is able to edit the name after registration 
 
 ### ▶ Password Field
 - Verify user is able to enter password  
 - Verify validation message is displayed for empty password field  
-- Verify password meets required validation rules (if any)  
+- Verify password meets required validation rules   
 
 ### ▶ Date of Birth
 - Verify user is able to select day, month, and year  
