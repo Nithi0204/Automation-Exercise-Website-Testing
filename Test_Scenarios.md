@@ -17,8 +17,8 @@
 - Verify validation message is displayed if no radio button is selected (if mandatory)  
 
 ### ▶ Name Fields
-- Verify user is able to enter first name and last name  
-- Verify validation message is displayed for empty name fields (if mandatory)  
+- Verify user is able to enter name 
+- Verify validation message is displayed for empty name field   
 
 ### ▶ Password Field
 - Verify user is able to enter password  
