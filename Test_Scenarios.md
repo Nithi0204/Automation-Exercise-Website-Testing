@@ -51,7 +51,8 @@
 ### ▶ Mobile Number
 - Verify user is able to enter mobile number  
 - Verify validation message is displayed for empty mobile number field  
-- Verify error message is displayed for invalid mobile number format  
+- Verify error message is displayed for invalid mobile number format
+- Verify error message is displayed for mobile number without country code 
 
 ### ▶ Final Submission
 - Verify account is created successfully when all mandatory fields are filled
