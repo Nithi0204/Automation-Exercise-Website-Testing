@@ -108,5 +108,5 @@
 - Verify order confirmation page is displayed after successful order placement  
 
 ### ▶ Post-Order Actions
+- Verify user is able to download the invoice after complete the payment
 - Verify user is able to continue shopping after placing the order  
-- Verify user is able to cancel the order before final confirmation (if option available)  
